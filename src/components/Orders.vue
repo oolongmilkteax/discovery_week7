@@ -56,7 +56,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped>  
+#orders {
+    flex-wrap: wrap;
+}
+
 ul {
   display: flex;
   list-style-type: none;
